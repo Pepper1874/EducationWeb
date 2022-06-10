@@ -1,0 +1,39 @@
+@import './mixins.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    @include fixed;
+}
+
+a {
+    text-decoration: none;
+    color: initial;
+}
+
+ul,
+li,
+ol,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+input,
+button {
+    border: none;
+}
